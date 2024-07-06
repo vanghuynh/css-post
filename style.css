@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -46,7 +46,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px;
+  padding: 50px 0;
   width: 500px;
 }
 
@@ -289,4 +289,17 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
