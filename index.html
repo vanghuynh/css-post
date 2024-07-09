@@ -22,15 +22,17 @@
         <header class="post-header">
           <h2>The Basic Language of the Web: HTML</h2>
 
-          <img
-            src="./img/laura-jones.jpg"
-            alt="Headshot of Laura Jones"
-            width="50"
-            height="50"
-          />
-          <p id="author">
-            Posted by <strong> Laura Jones </strong> on Monday, June 21st 2027
-          </p>
+          <div class="author-box">
+            <img
+              src="./img/laura-jones.jpg"
+              alt="Headshot of Laura Jones"
+              width="50"
+              height="50"
+            />
+            <p id="author">
+              Posted by <strong> Laura Jones </strong> on Monday, June 21st 2027
+            </p>
+          </div>
 
           <img
             src="img/post-img.jpg"
@@ -103,25 +105,29 @@
       <aside>
         <h4><strong>Related posts</strong></h4>
         <ul class="related">
-          <li>
+          <li class="related-post">
             <img
               width="50"
               height="50"
               src="img/related-1.jpg"
               alt="Lightning"
             />
-            <a href="#">How to Learn Web Development</a>
-            <p class="related-author">By Jonas Schmedtmann</p>
+            <div>
+              <a class="related-link" href="#">How to Learn Web Development</a>
+              <p class="related-author">By Jonas Schmedtmann</p>
+            </div>
           </li>
-          <li>
+          <li class="related-post">
             <img
               width="50"
               height="50"
               src="img/related-2.jpg"
               alt="Lightning"
             />
-            <a href="#">How to Learn Web Development</a>
-            <p class="related-author">By Jonas Schmedtmann</p>
+            <div>
+              <a class="related-link" href="#">How to Learn Web Development</a>
+              <p class="related-author">By Jonas Schmedtmann</p>
+            </div>
           </li>
         </ul>
       </aside>
