@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -263,4 +263,21 @@ h2::after {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
+}
+
+.row {
+  display: flex;
+  align-items: start;
+  gap: 75px;
+  margin-bottom: 20px;
+}
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+aside {
+  /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  flex: 0 0 300px;
 }
